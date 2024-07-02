@@ -5,13 +5,6 @@ const ActionType = {
   GET_LEADERBOARDS: 'GET_LEADERBOARDS',
 };
 
-function GetLeaderBoards(payload) {
-  return {
-    type: ActionType.GET_LEADERBOARDS,
-    payload,
-  };
-}
-
 function AsyncGetLeaderBoards() {
   return async (dispatch) => {
     dispatch(showLoading());
