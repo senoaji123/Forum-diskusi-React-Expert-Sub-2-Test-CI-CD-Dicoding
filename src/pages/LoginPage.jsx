@@ -16,7 +16,7 @@ export default function LoginPage() {
   return (
     <section className="login-page">
       <div className="login-page__title">
-        <h1>Form Login</h1>
+        <h1>Form Pembuatan Akun</h1>
       </div>
       <div className="login-page__input">
         <LoginInput onLogin={EventHandlerLogin} />
